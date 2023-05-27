@@ -27,7 +27,7 @@ pipeline {
         stage('Git Polling'){
             steps{
                 //git branch: 'master', url: 'https://github.com/bellyster/time-tracker.git'
-                git branch: 'master', credentialsId: 'GitHubKey', url: 'git@github.com:bellyster/time-tracker.git'
+                git branch: 'master', credentialsId: 'GitHubKey', url: 'git@github.com:rogecv/time-tracker.git'
                 
             }
         }
